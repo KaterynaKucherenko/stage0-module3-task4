@@ -6,9 +6,13 @@ public class IntRepresentation {
         char h = 'h';
         char a = 'a';
         char r = 'r';
-		System.out.println((int)c);
-		System.out.println((int)h);
-		System.out.println((int)a);
-		System.out.println((int)r);
+        int c2 = (int)c;
+        int h2 = (int)h;
+        int a2 = (int)a;
+        int r2 = (int)r;
+		System.out.println(c2);
+		System.out.println(h2);
+		System.out.println(a2);
+		System.out.println(r2);
     }
 }
